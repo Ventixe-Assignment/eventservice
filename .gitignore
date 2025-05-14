@@ -365,3 +365,5 @@ FodyWeavers.xsd
 /EventService/Presentation/appsettings.Development.json
 /AccountService/Presentation/appsettings.json
 /AccountService/Presentation/appsettings.Development.json
+/VerificationService/Presentation/appsettings.json
+/VerificationService/Presentation/appsettings.Development.json
