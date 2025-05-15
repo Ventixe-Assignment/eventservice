@@ -2,7 +2,7 @@
 
 public interface IVerificationService
 {
-    adwa
+  
 }
 public class VerificationService : IVerificationService
 {
