@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Presentation.Data;
+namespace Presentation.Data.Entities;
 
 public class EventEntity
 {
@@ -12,5 +12,8 @@ public class EventEntity
     public string ImageUrl { get; set; } = null!;
     public string Location { get; set; } = null!;
     public DateTime StartDate { get; set; }
-    public bool Status { get; set; } = true;
-}
+    public bool Status { get; set; }
+
+    public ICollection<EventPackageEntity> Packages { get; set; } = [];
+}   
+

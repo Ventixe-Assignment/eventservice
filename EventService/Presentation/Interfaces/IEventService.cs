@@ -1,10 +1,11 @@
-﻿using Presentation.Data;
+﻿using Presentation.Models;
 
 namespace Presentation.Interfaces
 {
     public interface IEventService
     {
-        Task<IEnumerable<EventEntity>> GetAllAsync();
-        Task<EventEntity?> GetAsync(string id);
+        Task<EventResult> CreateEventAsync(EventRequest request);
+        Task<EventResult<Event?>> GetEventAsync(string id);
+        Task<EventResult<IEnumerable<Event>>> GetEventsAsync();
     }
 }
