@@ -16,13 +16,6 @@ builder.Services.AddScoped<IEventService,EventService>();
 
 var app = builder.Build();
 app.MapOpenApi();
-app.UseSwagger();
-app.UseSwaggerUI(s =>
-{
-    s.SwaggerEndpoint("/swagger/v1/swagger.json", "Event Service API");
-    s.RoutePrefix = string.Empty;
-});
-
 app.UseHttpsRedirection();
 app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
