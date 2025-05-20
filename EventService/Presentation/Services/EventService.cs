@@ -4,7 +4,7 @@ using Presentation.Models;
 
 namespace Presentation.Services;
 
-
+ 
 public class EventService(IEventRepository eventRepository) : IEventService
 {
     private readonly IEventRepository _eventRepository = eventRepository;
