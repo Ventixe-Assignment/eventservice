@@ -3,7 +3,7 @@ using Presentation.Data.Entities;
 
 namespace Presentation.Data.Contexts;
 
-public class DataContext(DbContextOptions<DataContext> options) : DbContext(options)
+public class EventDataContext(DbContextOptions<EventDataContext> options) : DbContext(options)
 {
     public DbSet<EventEntity> Events { get; set; }
     public DbSet<PackageEntity> Packages { get; set; }

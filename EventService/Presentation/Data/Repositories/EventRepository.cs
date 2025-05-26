@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 
 namespace Presentation.Data.Repositories;
 
-public class EventRepository(DataContext context) : BaseRepository<EventEntity>(context), IEventRepository
+public class EventRepository(EventDataContext context) : BaseRepository<EventEntity>(context), IEventRepository
 {
     public override async Task<RepoResult<IEnumerable<EventEntity>>> GetAllAsync()
     {

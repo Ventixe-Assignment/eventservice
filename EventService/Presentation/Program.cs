@@ -10,7 +10,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
 
 
-builder.Services.AddDbContext<DataContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("EventDBConnection")));
+builder.Services.AddDbContext<EventDataContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection")));
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IEventService,EventService>();
 

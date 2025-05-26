@@ -8,10 +8,10 @@ namespace Presentation.Data.Repositories;
 
 public abstract class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
 {
-    protected readonly DataContext _context;
+    protected readonly EventDataContext _context;
     protected readonly DbSet<TEntity> _table;
 
-    protected BaseRepository(DataContext context)
+    protected BaseRepository(EventDataContext context)
     {
         _context = context;
         _table = _context.Set<TEntity>();
