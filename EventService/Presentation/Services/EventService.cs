@@ -4,7 +4,6 @@ using Presentation.Models;
 
 namespace Presentation.Services;
 
-/* CI/CD connected */
  
 public class EventService(IEventRepository eventRepository) : IEventService
 {
