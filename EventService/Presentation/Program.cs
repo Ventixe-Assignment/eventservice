@@ -3,14 +3,18 @@ using Presentation.Data.Contexts;
 using Presentation.Data.Repositories;
 using Presentation.Interfaces;
 using Presentation.Services;
+using Azure.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var keyVaultEndpoint = new Uri(Environment.GetEnvironmentVariable("VaultUri")!);
+builder.Configuration.AddAzureKeyVault(keyVaultEndpoint, new DefaultAzureCredential());
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
 
 
-builder.Services.AddDbContext<EventDataContext>(o => o.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection")));
+builder.Services.AddDbContext<EventDataContext>(o => o.UseSqlServer(builder.Configuration["SqlConnection"]));
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IEventService,EventService>();
 
