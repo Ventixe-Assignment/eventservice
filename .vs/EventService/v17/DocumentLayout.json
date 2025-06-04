@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Tapio\\source\\repos\\Ventixe\\Backend\\EventService\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C33D9076-8598-4E00-A5AD-71045D24A06E}|Presentation\\Presentation.csproj|c:\\users\\tapio\\source\\repos\\ventixe\\backend\\eventservice\\presentation\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33D9076-8598-4E00-A5AD-71045D24A06E}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33D9076-8598-4E00-A5AD-71045D24A06E}|Presentation\\Presentation.csproj|c:\\users\\tapio\\source\\repos\\ventixe\\backend\\eventservice\\presentation\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33D9076-8598-4E00-A5AD-71045D24A06E}|Presentation\\Presentation.csproj|solutionrelative:presentation\\services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33D9076-8598-4E00-A5AD-71045D24A06E}|Presentation\\Presentation.csproj|c:\\users\\tapio\\source\\repos\\ventixe\\backend\\eventservice\\presentation\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33D9076-8598-4E00-A5AD-71045D24A06E}|Presentation\\Presentation.csproj|solutionrelative:presentation\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33D9076-8598-4E00-A5AD-71045D24A06E}|Presentation\\Presentation.csproj|c:\\users\\tapio\\source\\repos\\ventixe\\backend\\eventservice\\presentation\\models\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33D9076-8598-4E00-A5AD-71045D24A06E}|Presentation\\Presentation.csproj|solutionrelative:presentation\\models\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C33D9076-8598-4E00-A5AD-71045D24A06E}|Presentation\\Presentation.csproj|c:\\users\\tapio\\source\\repos\\ventixe\\backend\\eventservice\\presentation\\models\\eventrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C33D9076-8598-4E00-A5AD-71045D24A06E}|Presentation\\Presentation.csproj|solutionrelative:presentation\\models\\eventrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +43,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\Tapio\\source\\repos\\Ventixe\\Backend\\EventService\\Presentation\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\Tapio\\source\\repos\\Ventixe\\Backend\\EventService\\Presentation\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T12:01:56.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Tapio\\source\\repos\\Ventixe\\Backend\\EventService\\Presentation\\Models\\EventRequest.cs",
+              "RelativeDocumentMoniker": "Presentation\\Models\\EventRequest.cs",
+              "ToolTip": "C:\\Users\\Tapio\\source\\repos\\Ventixe\\Backend\\EventService\\Presentation\\Models\\EventRequest.cs",
+              "RelativeToolTip": "Presentation\\Models\\EventRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:48:51.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Package.cs",
+              "DocumentMoniker": "C:\\Users\\Tapio\\source\\repos\\Ventixe\\Backend\\EventService\\Presentation\\Models\\Package.cs",
+              "RelativeDocumentMoniker": "Presentation\\Models\\Package.cs",
+              "ToolTip": "C:\\Users\\Tapio\\source\\repos\\Ventixe\\Backend\\EventService\\Presentation\\Models\\Package.cs",
+              "RelativeToolTip": "Presentation\\Models\\Package.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:46:03.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Tapio\\source\\repos\\Ventixe\\Backend\\EventService\\Presentation\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "Presentation\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\Tapio\\source\\repos\\Ventixe\\Backend\\EventService\\Presentation\\Models\\Event.cs",
+              "RelativeToolTip": "Presentation\\Models\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:45:11.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\Tapio\\source\\repos\\Ventixe\\Backend\\EventService\\Presentation\\Services\\EventService.cs",
+              "RelativeDocumentMoniker": "Presentation\\Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\Tapio\\source\\repos\\Ventixe\\Backend\\EventService\\Presentation\\Services\\EventService.cs",
+              "RelativeToolTip": "Presentation\\Services\\EventService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:40:54.615Z",
+              "EditorCaption": ""
             }
           ]
         }
