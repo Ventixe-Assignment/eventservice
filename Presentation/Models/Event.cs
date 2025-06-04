@@ -10,4 +10,5 @@ public class Event
     public string Location { get; set; } = null!;
     public DateTime StartDate { get; set; }
     public bool Status { get; set; }
+
 }
