@@ -4,7 +4,6 @@ using Presentation.Models;
 
 namespace Presentation.Services;
 
- 
 public class EventService(IEventRepository eventRepository) : IEventService
 {
     private readonly IEventRepository _eventRepository = eventRepository;
@@ -67,7 +66,19 @@ public class EventService(IEventRepository eventRepository) : IEventService
                 ImageUrl = result.Data.ImageUrl,
                 Location = result.Data.Location,
                 StartDate = result.Data.StartDate,
-                Status = result.Data.Status
+                Status = result.Data.Status,
+                Packages = result.Data.Packages?
+                    .Where(p => p.Package != null)
+                    .Select(p => new Package
+                    {
+                        Id = p.Package!.Id,
+                        EventId = result.Data.Id,
+                        Name = p.Package.Name,
+                        SeatTier = p.Package.SeatTier,
+                        SeatPlacement = p.Package.SeatPlacement,
+                        Price = p.Package.Price,
+                        Currency = p.Package.Currency,
+                    }).ToList() ?? []
             };
 
             return new EventResult<Event?> { Success = true, Data = mappedModel };
