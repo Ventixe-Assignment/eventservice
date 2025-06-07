@@ -34,7 +34,7 @@ public class EventsController(IEventService eventService) : ControllerBase
         return result != null ? Ok(result) : NotFound();
     }
 
-    [HttpGet("{id}/packages")]
+    [HttpGet("packages/{id}")]
     public async Task<IActionResult> GetPackages(string id)
     {
         var result = await _eventService.GetEventAsync(id);
